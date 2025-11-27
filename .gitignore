@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual envs
+.venv/
+venv/
+.env/
+
+# OS cruft
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
