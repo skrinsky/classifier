@@ -1,0 +1,30 @@
+{
+  "label_to_idx": {
+    "bass": 0,
+    "cymbals": 1,
+    "guitar": 2,
+    "hihat": 3,
+    "kick": 4,
+    "piano": 5,
+    "snare": 6,
+    "strings": 7,
+    "synth": 8,
+    "toms": 9,
+    "voice": 10,
+    "winds_brass": 11
+  },
+  "idx_to_label": {
+    "0": "bass",
+    "1": "cymbals",
+    "2": "guitar",
+    "3": "hihat",
+    "4": "kick",
+    "5": "piano",
+    "6": "snare",
+    "7": "strings",
+    "8": "synth",
+    "9": "toms",
+    "10": "voice",
+    "11": "winds_brass"
+  }
+}

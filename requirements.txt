@@ -1,0 +1,6 @@
+numpy
+torch
+librosa>=0.10
+soundfile
+sounddevice
+matplotlib
