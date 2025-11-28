@@ -17,6 +17,23 @@ You can use this repo at three levels:
 
 ---
 
+## Models & Training Data
+
+Both `mel_v7` and `mel_v8` are trained to predict broad, musically oriented
+classes:
+
+- **Pitched instruments:** bass, guitar, piano, synth, strings, winds_brass, voice  
+- **Drum subclasses:** kick, snare, toms, cymbals, hi_hat  
+
+Core training data comes from curated single-instrument and stem datasets
+(IDMT-SMT-BASS, IDMT-SMT-GUITAR_V2, IDMT-SMT-DRUMS, StemGMD, Medley-solos,
+selected Slakh stems, etc.).
+
+Model variants:
+
+- **mel_v7:** trained on the core datasets above.  
+- **mel_v8:** same as v7, plus a curated mdLib percussion subset.
+
 ## Repository Layout
 
 ```text
