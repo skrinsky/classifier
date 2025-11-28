@@ -51,7 +51,7 @@ from classify_palette.classify_palette_octaves2 import (  # type: ignore
 BASE_DIR = Path(__file__).resolve().parent
 
 # Default relative paths (used for GitHub-friendly auto-loading)
-DEFAULT_LABELS_PATH = BASE_DIR / "/label_mappings/label_mapping_v7.json"
+DEFAULT_LABELS_PATH = BASE_DIR / "label_mappings/label_mapping_v7.json"
 DEFAULT_MODEL_PATH = BASE_DIR / "best_models/best_model_v7.pt"
 
 

@@ -207,7 +207,7 @@ This folder contains training scripts / notebooks used to:
 
 Load the cached features,
 
-Build and configure AudioCNNv6,
+Build and configure AudioCNNv7,
 
 Train / fine-tune models that become best_model_v7.pt and best_model_v8.pt.
 
