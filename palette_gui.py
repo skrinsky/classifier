@@ -38,7 +38,7 @@ from matplotlib.figure import Figure
 # Assumes classify_palette_octaves2.py is in the same folder and defines:
 #   TARGET_SR, AudioCNNv6, load_audio_mono, sampler_style_pitch_shift,
 #   chunk_to_model_inputs, predict_for_waveform
-from classify_palette.classify_palette_octaves2 import (  # type: ignore
+from classify_palette.classify_palette_octaves2_sampler import (  # type: ignore
     TARGET_SR,
     AudioCNNv6,
     load_audio_mono,
